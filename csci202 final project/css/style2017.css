@@ -1,0 +1,63 @@
+html {
+    
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+
+}
+
+body {
+	background: linear-gradient(-45deg,#fc5c7d, #6a82fb);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 200vh;
+    padding: 1em 1em 1em;
+
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+    font-family: 'Gloock', serif;
+    color: rgb(74, 48, 48);
+
+    font-size: 50px;
+    border: 2px solid rgb(74, 48, 48);
+    padding: 0.5em 0.5em 0.5em;
+    
+  
+}
+
+
+body{
+    border: 2px solid rgb(74, 48, 48);
+
+}
+
+h2 {
+    font-family: 'Gloock', serif;
+    color: rgb(74, 48, 48);
+    text-decoration: underline rgb(74, 48, 48);
+
+    font-size: 30px;
+
+    
+}
+
+p{
+    font-family: 'Gloock', serif;
+    color: rgb(74, 48, 48);
+    font-size: 25px;
+
+}
+
